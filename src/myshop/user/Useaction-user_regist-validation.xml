@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+  		"-//Apache Struts//XWork Validator 1.0.3//EN"
+  		"http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+<field name="username">
+<field-validator type="requiredstring">
+<message>大爷的，不能为空</message>
+</field-validator>
+</field>
+
+<field name="stringlength">
+<field-validator type="requiredstring">
+<param name="maxLength">12</param>
+<param name="minLength">6</param>
+<message>必须这么多</message>
+</field-validator>
+</field>
+</validators>
